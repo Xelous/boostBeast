@@ -403,7 +403,7 @@ void PrintHelp()
 	std::cout << "    http_server_fast 0::0 80 . 100 block\n";
 }
 
-int main(int p_argc, char* p_argv[])
+int main(const int p_argc, const char* p_argv[])
 {
 	try
 	{

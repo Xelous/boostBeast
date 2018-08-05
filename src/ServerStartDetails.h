@@ -12,7 +12,7 @@ struct ServerStartDetails
 	const int							NumberOfWorkers;
 	const bool							Spin;
 
-	ServerStartDetails(char* p_Arguments[]);		
+	ServerStartDetails(const char* p_Arguments[]);
 
 };
 
